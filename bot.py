@@ -39,8 +39,5 @@ async def on_message(message):
                 await message.channel.send(gen_pass(int(x)))
         except:
             await message.channel.send("debes colocar un numero despues del guón. Example : $Contraseña-15 ")
-       
-    else:
-        await message.channel.send(message.content)
  
 client.run("")
